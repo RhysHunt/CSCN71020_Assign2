@@ -58,7 +58,7 @@ namespace UnitTestCases
 			//Tests if the input and the length are equal
 			Assert::AreEqual(input, width);
 
-			input = 1000;
+			input = 100;
 			//Should be incorrect, since 100 is out of bounds
 			setWidth(input, &width);
 			//Tests if the two inputs are NOT equal
