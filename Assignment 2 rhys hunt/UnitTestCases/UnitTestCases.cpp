@@ -65,7 +65,7 @@ namespace UnitTestCases
 			Assert::AreEqual(input, width);
 
 			input = -1;
-			//Should be incorrect since input is very negative, meant simulate typing a very negative number 
+			//Should be incorrect since input is very negative, meant simulate typing a negative number 
 			setWidth(input, &width);
 			//Tests if the two inputs are NOT equal
 			Assert::AreNotEqual(input, width);
