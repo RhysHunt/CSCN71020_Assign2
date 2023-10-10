@@ -83,7 +83,8 @@ void setWidth(int input, int *width) {
 }
 
 int getPerimeter(int *length, int *width) {
-	int perimeter = *length + *length + *width;
+	//Changed the perimeter function to include an extra + *width, making it print the correct values
+	int perimeter = *length + *length + *width + *width;
 	return perimeter;
 }
 

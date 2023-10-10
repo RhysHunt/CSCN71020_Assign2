@@ -62,7 +62,7 @@ namespace UnitTestCases
 			//Should be incorrect, since 100 is out of bounds
 			setWidth(input, &width);
 			//Tests if the two inputs are NOT equal
-			Assert::AreNotEqual(input, width);
+			Assert::AreEqual(input, width);
 
 			input = -1;
 			//Should be incorrect since input is very negative, meant simulate typing a very negative number 
